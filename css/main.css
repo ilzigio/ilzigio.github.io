@@ -20,3 +20,7 @@
 body{
 	background-color: #EDF5E1;
 }
+
+.tab-pane.fade.show.active{
+	color: color: #05386B;
+}
