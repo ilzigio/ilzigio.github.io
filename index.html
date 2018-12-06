@@ -3,33 +3,58 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>Andrea Ziggiotto Personal Site</title>
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	 <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
 <body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Andrea Ziggiotto</h1>      
+    <p>Personal Portfolio Website</p>
+  </div>      
 	
-<div class="container">
-	<h1>Andrea Ziggiotto</h1>
+
+<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+      <a class="nav-link" id="v-pills-cv-tab" data-toggle="pill" href="#v-pills-cv" role="tab" aria-controls="v-pills-cv" aria-selected="false">CV</a>
+      <a class="nav-link" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Projects</a>
+    </div>
+  </div>
+
+ 
+ <!-- Content of the segment of the page          -->
+
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+      	I'm a computer engineering student and an occasional runner.
+      </div>
+      
+
+      <div class="tab-pane fade" id="v-pills-cv" role="tabpanel" aria-labelledby="v-pills-cv-tab">
+      	
+      </div>
+      <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+      	<h2>Autonomous Driving: Road Sign Recognition</h2>
+      		This is the final project of the Computer Vision course, the aim of the project was to build a system able to recognize the road sign in a defined set of images. The project has been developed using C++ and the OpenCV library, to recognize the sign are used the classic method of the computer vision and to computer the speed in the speed limit sign an OCR are used. <a href="projects_file/cv_report.pdf">[REPORT]</a>
+
+      	<h2>Embedded Systems Programming: Multishot Photography</h2>
+      		This is the final project of the Embedded Systems Programming, the aim of the project was to build an application for Android smartphone that implemented an algorithm of multi-shot photography. This project has been developed together with two colleagues, using the Java Android Language for the behavior of the application, while to developed the computational photography algorithm we used C++ languages, the OpenCV library and the Android NDK library to embody the C++ code in the application code. <a href="projects_file/esp_report.pdf">[REPORT in italian]</a> 
+
+
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="container">
-	<div class="row">
-		<div class="col" id="navbar">
-			<h2>CV</h2>
-			<h2><a href="projects.html">Projects</a></h2>
-			<h2>Contacts</h2>
-		</div>
-		<div class="col" id="description">
-			lorem ipsum lorem ipsum lorem ipsum
-		</div>
-
-	</div>
 </div>
 	
 

@@ -1,13 +1,22 @@
-.container{
-	background-color: #7565E8
+.jumbotron{
+	background-color: #8EE4AF;
+	color: #05386B;
 }
 
-#navbar{
-	background-color: #1BB2F9
-
+.nav{
+	background-color: #379683;
+	color: #EDF5E1;
 }
 
-#description{
-	background-color: #11597B
+.nav-link{
+	color: #EDF5E1;	
+}
 
+.nav-link.active.show{
+	background-color: #5CDB95;
+	color:#05386B;
+}
+
+body{
+	background-color: #EDF5E1;
 }
