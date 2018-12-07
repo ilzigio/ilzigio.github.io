@@ -15,6 +15,7 @@
 .nav-link.active.show{
 	background-color: #5CDB95;
 	color:#05386B;
+	margin: 2% 2% 2% 2%;
 }
 
 body{
@@ -23,4 +24,51 @@ body{
 
 .tab-pane.fade.show.active{
 	color: color: #05386B;
+}
+
+.project_desc{
+	background-color: #8EE4AF;
+	color: #05386B;
+	border-style: outset;
+	border-width: medium;
+	border-color: #EDF5E1;
+	border-radius: 2%;
+
+	padding: 2% 2% 2% 2%;
+	margin: 2% 2% 2% 2%;
+}
+
+.project_desc_first{
+	
+	background-color: #8EE4AF;
+	color: #05386B;
+	border-style: outset;
+	border-width: medium;
+	border-color: #EDF5E1;
+	border-radius: 2%;
+
+	margin: 0% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+
+}
+
+.footer{
+	background-color: #8EE4AF;
+	color: #05386B;
+}
+
+.footer span{
+	margin: 2% 2% 2% 2%;
+}
+
+.page-footer{
+	margin: 2% 0% 0% 0%;	
+}
+
+i{
+	margin: 2% 2% 2% 2%;
+}
+
+.fab{
+	color: #05386B;
 }
